@@ -3,8 +3,12 @@ This is a SQL project that analyzes the COVID-19 data provided by Our World in D
 
 ## Data Analysis
 
-In this project, the data analysis is conducted using SQL, which stands for Structured Query Language. SQL is a programming language that is commonly used for managing and manipulating relational databases.
+- Analyzed Covid-19 data using SQL, including calculating death rates and percentages of population infected and died
+- Identified the country with the highest infection rate compared to population and the continent with the highest death count per population
+- Joined and analyzed Covid-19 vaccination data, including calculating the number of people vaccinated per day and comparing vaccination rates to population size
+- Conducted data analysis to inform decision-making and understand Covid-19 trends
 
+## Explanation
 The Covid_19_PortfolioProject database contains two tables: CovidDeaths and CovidVacinations. These tables are related to each other through a common field (i.e., location and date). CovidDeaths table contains information on the total number of cases and deaths due to COVID-19 by location and date. On the other hand, CovidVacinations table contains information on the total number of people who have been vaccinated by location and date.
 
 By analyzing these tables using SQL, we can extract meaningful insights from the data. For example, we can calculate the total number of COVID-19 cases and deaths in a particular location or for a particular date range. We can also calculate the vaccination rate for a particular location or date range.
